@@ -1,0 +1,379 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  }
+
+.header {
+  background: url("../img/firstlogo.jpg") no-repeat center top / cover;
+  width: 100%;
+  height: 750px;
+}
+
+.back {
+  background: rgba(16, 18, 24, 0.73);
+  width: 100%;
+  height: 750px;
+  padding-top: 50px;
+}
+
+nav {
+  width: 100%; 
+  height: 26px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.menu li{
+  float: left;
+  display: block;
+  margin-right: 53px;
+  justify-content: right;
+}
+
+.menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  color:  #87D9F1;
+  transition: all 0.2s; 
+}
+.title_name {
+  width: 484px; 
+  margin-top: 179px;
+  margin-left: 120px;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.02em; 
+}
+
+
+.title_description {
+  font-weight: 500;    
+  font-size: 18px;
+  color: #fff;
+  text-transform: none;
+  line-height: 22px;
+  margin-top: 5px;
+  }
+
+
+.title_slogan {
+  width: 635px;
+  height: 78px;
+  font-size: 28px;
+  color: #fff;
+  text-transform: none;
+  text-align: left;
+  margin-top: 47px;
+  margin-left: 120px;
+  line-height: 34px;
+  }
+
+.baseinfo {
+  background: #2c2c2c;
+  width: 100%;
+  height: 750px;
+  position: relative;
+}  
+
+.blockwrap {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: -72px;
+}
+
+.blockI {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.infoblock {
+  width: 345px;
+  height: 142px;
+  background-color: white;
+  box-shadow: 4px 4px 4px rgba(229, 229, 229, 0.18);
+  border-radius: 6px;
+}
+
+.func_block {
+  width: 288px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #397C8F;
+  margin-top: 39px;
+  margin-left: 28px;
+}
+
+.func_block > p {
+height: 60px;
+}
+
+.arrow {
+  background: url('../img/Arrow.png') no-repeat center top;
+  width: 55px;
+  height: 15px;
+  margin-left: 216px;
+}
+
+.advantages {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.head_a {
+  padding-top: 142px;
+  text-align: center;
+}
+
+.head_b{
+  padding-top: 150px;
+  text-align: center;
+}
+
+.advantages_wrap{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 94px;
+}
+
+.advantages_logo {
+  width: 110px;
+  height: 103px;
+  text-align: center;
+}
+
+.advantages_wrap_description {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.advantages_description {
+  width: 356px;
+  height: 59px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* photos and addresses houses*/
+
+.conteiner_img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 810px;
+}
+
+.imegs_houses {
+  flex: 1;
+  height: 405px;
+  display: flex;
+}
+
+.fon {
+  background: rgba(0, 0, 0, 0.63);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.adres {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 63px;
+  padding-bottom: 55px;
+}
+.adres_arrow {
+  display: none;
+}
+
+.adres_arrow:hover {
+  background-image: url('../img/Arrow_adres.png') no-repeat center top;
+  position: absolute;
+  width: 40px;
+  height: 0px;
+  border: 2px solid #87D9F1;
+  box-sizing: border-box;
+}
+
+.adres:hover {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #87D9F1;
+  transition: all 0.2s; 
+}
+
+.img-1, .img-4 {
+  flex: 1;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.img-2, .img-3 {
+  flex: 2;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-1 {
+  background-image: url('/img/1.jpg');
+}
+
+.img-2 {
+  background-image: url('/img/2.jpg');
+}
+
+.img-3 {
+  background-image: url('/img/3.jpg');
+}
+
+.img-4 {
+  background-image: url('/img/4.jpg');
+}
+
+
+/* feedback */
+.feedbeck {
+  width: 100%;
+  height: 1068px;
+  background: #2c2c2c;
+}
+
+.head_с {
+  padding-top: 117px;
+  text-align: center;
+}
+
+.question {
+  margin-top: 78px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-indent: 5px;
+  color: #FFFFFF;
+}
+
+.question p {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75px;
+}
+
+form > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 13px;
+  padding-top: 29px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+input[type="text"] {
+  width: 464px;
+  height: 49px;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  color: #FFFFFF;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+textarea {
+  width: 467px;
+  height: 136px;
+}
+
+.foter {
+  width: 100%;
+  height: 387px;
+  background: #1E1C1C;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.logo_flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 21px;
+}
+
+.logo_vk {
+  background-image: url('../img/vk.svg');
+  width: 44px;
+  height: 43px;
+}
+
+.logo_inst {
+  background-image: url('../img/instagram.svg');
+  width: 44px;
+  height: 43px;
+}
+
+.logo_f {
+  background-image: url('../img/facebook.svg');
+  width: 44px;
+  height: 42px;
+}
+
+.list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
